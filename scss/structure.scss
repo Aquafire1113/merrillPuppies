@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing:border-box;
+}
+
+html,body{
+    height:100%;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin-bottom:16px;
+}
+
+.left{
+    height:100%;
+    width:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.right{
+    height:100%;
+    width:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.imgResize{
+    width:50%;
+    margin:15px;
+}
+
+
+@media screen and (max-width:380px){
+.left{
+    height:50%;
+    width:100%;
+}
+
+.right{
+    height:50%;
+    width:100%;
+}
+
+.imgResize{
+    width:30%;
+}
+}

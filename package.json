@@ -1,0 +1,26 @@
+{
+  "name": "merrill_puppies",
+  "version": "1.0.0",
+  "description": "A website for my mom to sell puppies out of Boog and Layla",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass scss/styles.scss css/styles.css -w",
+    "server": "live-server",
+    "start": "npm-run-all --parallel compile:sass server"
+  },
+  "keywords": [
+    "puppies",
+    "merrill",
+    "layla",
+    "boog",
+    "corgi"
+  ],
+  "author": "Abbigail Merrill abbigail.merrill@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1",
+    "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {}
+}

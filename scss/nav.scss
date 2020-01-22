@@ -1,0 +1,40 @@
+nav{
+    height:100px;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    z-index:99;
+}
+
+.menu{
+    height:100%;
+    width:100px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    cursor:pointer;
+    z-index:99;
+}
+
+.line{
+    width:50px;
+    height:10px;
+    margin:2px;
+    background-color:white;
+}
+
+.links{
+    display:none;
+}
+
+.links a{
+    color:white;
+    text-decoration:none;
+    padding:10px;
+    z-index:99;
+}
