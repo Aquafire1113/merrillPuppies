@@ -1,0 +1,27 @@
+#registerForm{
+    height:100%;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+input, select{
+    width:400px;
+    border:2px solid black;
+    height:35px;
+    margin:10px;
+}
+
+@media screen and (max-width:380px){
+    input,select{
+        width:300px;
+    }
+}
+
+@media screen and (max-device-width:380px){
+    input,select{
+        width:300px;
+    }
+}
